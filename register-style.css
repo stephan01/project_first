@@ -22,7 +22,7 @@ body{
 .header h3{
     color: #333;
     font-size: 32px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .main {
@@ -31,14 +31,14 @@ body{
 
 .main input, button {
     width :300px;
-    height: 40px;
+    height: 30px;
     border:none;
     outline: none;
-    padding-left: 40px;
+    padding-left: 30px;
     box-sizing: border-box;
     font-size: 15px;
     color: #333;
-    margin-bottom: 40px;
+    margin-bottom: 27px;
     border-radius: 20px;
 }
 
