@@ -31,8 +31,8 @@ if (isset($_POST['add_comment'])){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="comment-style.css">
-<link rel="stylesheet" href="style-info.css">
+<link rel="stylesheet" href="style1-comments.css">
+
     <title>Review</title>
 </head>
 <body>
@@ -41,8 +41,8 @@ if (isset($_POST['add_comment'])){
             <ul class="info-nav">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
-                <li><a href="#">Career</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="career.php">Career</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <li><a href="comments.php">Reviews</a></li>
             </ul>
         </nav>
@@ -51,7 +51,6 @@ if (isset($_POST['add_comment'])){
     <form action='' method='POST'>
     <textarea name='message' ></textarea>
     <input type='hidden' name='username' value='".$_SESSION['username']."'>
-    <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
     <input type='submit' name='add_comment' >
     </form>"; ?>
 <?php

@@ -31,25 +31,22 @@ session_start();
         </nav>
     </header>
 <div class="hero">
-    <h1>Bine ati venit la sectiunea "Despre mine"</h1>
+    <h1>Bine ati venit la sectiunea "Cariera"</h1>
 
 <div class="slide-row">
     <div class="admin-text">
-    <p>Sunt o persoana rabdatoare si imi place sa ascult persoanele.
-        Iubesc cainii, in special pe al meu.Imi place florile si ciocolata.
-        Banii sunt lucrul care ma fac fericita, iar meseria o practic din pasiune pentru a ajuta.
-        Locuiesc departe de oras si mai vreau sa-mi fac o casa cu banii din salariu, ca e mare.
-    </p>
+    <p>Sunt nascuta in Vestul Romaniei, am absolvit liceu cu media de Bacalaurea echivalenta cu 10,
+    dupa care am urmat curusurile facultatii de medicina din Timisoara, unde, de asemenea, media examenului
+    de Rezitendtiat a fost 10.
+    Sunt medic specialiast Anestezie si Terapie Intensiva de peste 10 ani si nu am avut nici macar un pacient pierdut.
+    Daca esti in coma, nu mai astepta! Vino la mine.</p>
     
     </div>
 
         <div class="admin-img">
-            <img src="img/kara.jpg" class="medic-jos">
+            <img src="img/medic-ati.jpg" class="medic-jos">
         </div>
     </div>
 </div>
 </body>
-</html>   
-
-    
-
+</html>  
